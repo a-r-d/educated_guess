@@ -13,15 +13,20 @@ What:
 	
 	
 Example Usage:
+
 	There are two modes:
 		1. common - does not not do the full pin number list / full
 			substring combinations of the seed list
 		2. full - does a lot more. 
 		
+		
 	All params:
+	
 	ruby educated_guess.rb common -o outputfile.txt -p 500_worst_passwords.txt -s seeds.txt
 	
+	
 	No output specified ( goes to ./guess_output.txt )
+	
 	ruby educated_guess.rb full -p twitter-banned.txt -s seeds.txt
 	
 
