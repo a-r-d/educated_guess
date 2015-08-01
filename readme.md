@@ -2,7 +2,12 @@
 Educated Guess
 ===================
 
-What:
+It is usually pretty easy to get into some system if you know something about the owner. This program essentially takes strings and combines them into probable passwords.
+
+This is the first ruby program I ever wrote.
+
+
+### What is this?
 	
 	Takes a seed list things you know about target. 
 	E.g. name, school, address, birthdate and then 
